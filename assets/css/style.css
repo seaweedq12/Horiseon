@@ -81,7 +81,7 @@ p {
     float: right;
     margin-left: 25px;
 }
-/*changed location of code to match the order of code*/
+/*changed location of the section code to match the order of HTML code*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -194,7 +194,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*where the section code was originally*/
 .footer {
     padding: 30px;
     clear: both;

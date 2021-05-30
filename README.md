@@ -26,10 +26,18 @@ THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
 ```
+## URL
+
+https://seaweedq12.github.io/Horiseon/
+
 ## Changes Made
 
 1. The site had no title so a title matching the site was added, also a icon was added
 
-2. Element under <div> were given a semantic HTML element <nav>, <figure>, <section>, <aside> ,<footer>. stylesheet needed to be edited div to nav in the .header section
+2. Element under <div> were given a semantic HTML element **nav**, **figure**, **section**, **aside** ,**footer**. stylesheet needed to be edited from **div** to **nav** in the .header section
 
-3. 
+3. All the images were given a empty **alt** attribute as they have no meaning and is just used for decoration. screen reader ignore images with empty **alt**
+
+4. In the body element a **min-width** was placed to prevent website collasping out of shape
+
+5. In the stylesheet the location of the **section** code was change to match the order of the HTML code. prior to change the **section** code was located under the **aside** code
