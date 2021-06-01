@@ -34,9 +34,9 @@ https://seaweedq12.github.io/Horiseon/
 
 1. The site had no title so a title matching the site was added, also a icon was added
 
-2. Element under **div** were given a semantic HTML element **nav**, **figure**, **section**, **aside** ,**footer**.Its important it stays in this order or the look of the html becomes different. stylesheet needed to be edited from **div** to **nav** in the .header section
+2. Element under **div** were given a semantic HTML element **nav**, **figure**, **section**, **aside**, **footer**.Its important it stays in this order or the look of the html becomes different. stylesheet needed to be edited from **div** to **nav** in the .header section
 
-3. All the images were given a empty **alt** attribute as they have no meaning and is just used for decoration. screen reader ignore images with empty **alt**
+3. All the images were given a empty **alt** attribute as they have no meaning and is just used for decoration. Screen reader ignore images with empty **alt**
 
 4. In the body element a **min-width** was placed to prevent website collasping out of shape
 
