@@ -41,3 +41,7 @@ https://seaweedq12.github.io/Horiseon/
 4. In the body element a **min-width** was placed to prevent website collasping out of shape
 
 5. In the stylesheet the location of the **section** code was change to match the order of the HTML code. prior to change the **section** code was located under the **aside** code
+
+6. One of the nav anchor link was broken as a section id was missing which was fixed
+
+7. In the **section** and **aside**, different class were given when the styling used in the element were exactly the same. So the class in each element were unified and the css code was reduced

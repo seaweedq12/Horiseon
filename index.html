@@ -12,6 +12,7 @@
 
 <body>
     <!--div elements changed to a semantic elements -->
+    <!--------------------------------header-------------------------------->
     <header class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
         <nav>
@@ -28,24 +29,28 @@
             </ul>
         </nav>
     </header>
+    <!--------------------------------figure-------------------------------->
     <figure class="hero"></figure>
+    <!--------------------------------section-------------------------------->
     <section class="content">
         <!--all the img element given a empty alt and a presentation role to show images have no meaning and a just decoration-->
-        <section class="search-engine-optimization">
+        <!--classes where unified into a single class-->
+        <!--In the original html code search-engine-optimization anchor link was broken as section id was missing-->>
+        <section id="search-engine-optimization" class="main-content">
             <img src="./assets/images/search-engine-optimization.jpg" alt="" role="presentation" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </section>
-        <section id="online-reputation-management" class="online-reputation-management">
+        <section id="online-reputation-management" class="main-content">
             <img src="./assets/images/online-reputation-management.jpg" alt="" role="presentation" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </section>
-        <section id="social-media-marketing" class="social-media-marketing">
+        <section id="social-media-marketing" class="main-content">
             <img src="./assets/images/social-media-marketing.jpg" alt="" role="presentation" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
@@ -53,22 +58,24 @@
             </p>
         </section>
     </section>
+    <!--------------------------------aside-------------------------------->
     <aside class="benefits">
-        <aside class="benefit-lead">
+        <!--classes where unified into a single class-->
+        <aside class="benefit-content">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="" role="presentation" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </aside>
-        <aside class="benefit-brand">
+        <aside class="benefit-content">
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" alt="" role="presentation"/>
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </aside>
-        <aside class="benefit-cost">
+        <aside class="benefit-content">
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png" alt="" role="presentation" />
             <p>
@@ -76,6 +83,7 @@
             </p>
         </aside>
     </aside>
+    <!--------------------------------footer-------------------------------->
     <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
